@@ -25,6 +25,10 @@ namespace Condicao_if
             {
                 MessageBox.Show("Voc^ainda é menor de idade", "Mensagem");
             }
+            else
+            {
+                MessageBox.Show("Você já é maior de idade", "Mensagem");
+            }
         }
     }
 }
